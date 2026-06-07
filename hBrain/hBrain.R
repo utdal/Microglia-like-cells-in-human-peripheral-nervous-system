@@ -83,6 +83,7 @@ DimPlot(brainMNPs, reduction = "umap", group.by = 'seurat_clusters',
 #### Label Clusters ####
 
 #Look from their markers in the paper/DEG list
+#ROSMAP.Microglia.6regions.seurat.harmony.selected.clusterDEGs.txt
 genes <- unique( c(
   #BAM, Viral, Cycling, Stress
   "MRC1", "LYVE1", "IFI44L", "MX1", "EZH2", "BRIP1", "HSPB1", "HSPH1",
